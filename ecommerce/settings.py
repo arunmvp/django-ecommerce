@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 DEBUG = os.environ.get("DEBUG", "False") == "True"
 
 # Allow all hosts for now; after domain setup, update ALLOWED_HOSTS
-ALLOWED_HOSTS = ["localhost", "127.0.0.1", "https://django-ecommerce-95xj.onrender.com"]
+ALLOWED_HOSTS = ["*", "django-ecommerce-95xj.onrender.com", "127.0.0.1", "localhost"]
 # Application definition
 INSTALLED_APPS = [
     "django.contrib.admin",
@@ -97,10 +97,13 @@ DATABASES = {
 
 # CORS settings
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
+    "http://localhost:3000/",
+    "https://cake-art-arun.netlify.app/"
 ]
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOW_CREDENTIALS = True
+
+CSRF_TRUSTED_ORIGINS = ["https://django-ecommerce-95xj.onrender.com"]
 
 # JWT settings
 SIMPLE_JWT = {
