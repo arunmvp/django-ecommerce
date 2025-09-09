@@ -1,0 +1,123 @@
+[
+{
+  "model": "shop.product",
+  "pk": 1,
+  "fields": {
+    "title": "Black Forest",
+    "price": "19.00",
+    "image": "https://cakeart.thimpress.com/wp-content/uploads/2015/11/black-forest3-270x240.jpg",
+    "image2": "https://cakeart.thimpress.com/wp-content/uploads/2015/11/tartufo3-180x180.jpg",
+    "category": "cupcake"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 2,
+  "fields": {
+    "title": "Dessert Cake",
+    "price": "16.00",
+    "image": "https://cakeart.thimpress.com/wp-content/uploads/2015/11/Strawberry-Cupcake3-270x240.jpg",
+    "image2": null,
+    "category": "cupcake"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 3,
+  "fields": {
+    "title": "Sachertorte",
+    "price": "13.00",
+    "image": "https://cakeart.thimpress.com/wp-content/uploads/2015/11/Strawberry-Cupcake-270x240.jpg",
+    "image2": null,
+    "category": "cupcake"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 4,
+  "fields": {
+    "title": "Tiramisu",
+    "price": "18.00",
+    "image": "https://cakeart.thimpress.com/wp-content/uploads/2015/07/about-page-270x240.jpg",
+    "image2": null,
+    "category": "cupcake"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 5,
+  "fields": {
+    "title": "Panna Cotta",
+    "price": "20.00",
+    "image": "https://cakeart.thimpress.com/wp-content/uploads/2015/11/panna-cotta-270x240.jpg",
+    "image2": null,
+    "category": "cupcake"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 6,
+  "fields": {
+    "title": "Tartufo di Pizzo",
+    "price": "15.00",
+    "image": "https://cakeart.thimpress.com/wp-content/uploads/2015/11/Tartufo-270x240.jpg",
+    "image2": "https://cakeart.thimpress.com/wp-content/uploads/2015/11/tartufo2-180x180.jpg",
+    "category": "cupcake"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 7,
+  "fields": {
+    "title": "Hats Off To The Graduate Cake",
+    "price": "22.00",
+    "image": "https://cakeart.thimpress.com/wp-content/uploads/2015/11/recipe1-1.jpg",
+    "image2": "https://cakeart.thimpress.com/wp-content/uploads/2015/07/img_gallery_3.jpg",
+    "category": "chocolate"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 8,
+  "fields": {
+    "title": "Diploma Cake",
+    "price": "18.00",
+    "image": "https://cakeart.thimpress.com/wp-content/uploads/2015/11/recipe3.jpg",
+    "image2": null,
+    "category": "chocolate"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 9,
+  "fields": {
+    "title": "Agave Holiday Ham Glaze",
+    "price": "21.00",
+    "image": "https://cakeart.thimpress.com/wp-content/uploads/2015/11/recipe7-1.jpg",
+    "image2": null,
+    "category": "chocolate"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 10,
+  "fields": {
+    "title": "Creme de Menthe Cheesecake",
+    "price": "24.00",
+    "image": "https://cakeart.thimpress.com/wp-content/uploads/2015/11/recipe5-1.jpg",
+    "image2": null,
+    "category": "chocolate"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 11,
+  "fields": {
+    "title": "Chocolate Crinkle Cookies",
+    "price": "26.00",
+    "image": "https://cakeart.thimpress.com/wp-content/uploads/2015/11/folio_img_4.jpg",
+    "image2": null,
+    "category": "chocolate"
+  }
+}
+]

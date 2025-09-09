@@ -69,6 +69,7 @@ def user_profile(request):
 class ProductViewSet(viewsets.ReadOnlyModelViewSet):
     queryset = Product.objects.all()
     serializer_class = ProductSerializer
+    permission_classes = [AllowAny]
 
 
 # 🔹 Cart APIs
