@@ -98,7 +98,7 @@ DATABASES = {
 # CORS settings
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    "https://cake-art-arun.netlify.app/"
+    "https://cake-art-arun.netlify.app"
 ]
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOW_CREDENTIALS = True
